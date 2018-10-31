@@ -1,0 +1,22 @@
+.video-js .vjs-big-play-button {
+    /*
+     播放按钮换成圆形
+    */
+    /*height: 2em;*/
+    /*width: 2em;*/
+    /*line-height: 2em;*/
+    /*border-radius: 1em;*/
+    transform: scale(0.6);
+    /*opacity: 0.8;*/
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background: -webkit-linear-gradient(-30deg, rgba(67, 76, 205, 0.68) 0%, rgba(85, 81, 212, 0.68) 34%, rgba(119, 91, 226, 0.68) 83%, rgba(161, 105, 244, 0.69)) !important;
+}
+
+.vjs-control-bar {
+    font-size: 12px !important;
+}
+
+.vjs-slider-bar {
+    background: -webkit-linear-gradient(0deg, #434ccd 0%, #5551d4 34%, #775be2 83%, #a169f4);
+}
